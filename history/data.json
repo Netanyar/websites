@@ -1,0 +1,394 @@
+{
+  "version": 1,
+  "course": {
+    "title": "How Europe was remade",
+    "range": "1789–1991",
+    "description": "Six turning points. One connected story."
+  },
+  "places": [
+    {
+      "id": "paris",
+      "name": "Paris",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    {
+      "id": "vienna",
+      "name": "Vienna",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "id": "sarajevo",
+      "name": "Sarajevo",
+      "lat": 43.86,
+      "lon": 18.41
+    },
+    {
+      "id": "moscow",
+      "name": "Moscow",
+      "lat": 55.76,
+      "lon": 37.62
+    }
+  ],
+  "entries": [
+    {
+      "id": "revolution",
+      "title": "Revolution crosses borders",
+      "date": "1789–1815",
+      "year": 1789,
+      "region": "France · Europe",
+      "places": [
+        "paris"
+      ],
+      "prerequisites": [],
+      "question": "How did a revolution in France change Europe?",
+      "before": "Dynastic monarchies dominated European politics.",
+      "after": "French expansion and its defeat disrupted the old political order.",
+      "actors": [
+        "French revolutionaries",
+        "Napoleon",
+        "European monarchies"
+      ],
+      "ideas": [
+        {
+          "title": "A new basis for authority",
+          "text": "The French Revolution challenged inherited privilege and royal authority. Ideas about citizenship and political rights became a challenge to rulers beyond France."
+        },
+        {
+          "title": "Ideas travel with armies",
+          "text": "Revolutionary wars and Napoleon’s expansion carried French power across Europe. Conquest reorganised states while also provoking resistance to French rule."
+        },
+        {
+          "title": "An empire leaves a problem",
+          "text": "Napoleon’s defeat left the victors facing a geographical question: how could Europe be reorganised so that no power dominated it again?"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "What kind of authority did the French Revolution challenge?",
+          "answer": [
+            "Inherited royal authority and privilege.",
+            "Political legitimacy was increasingly debated in terms of citizens and rights."
+          ]
+        },
+        {
+          "id": "r2",
+          "prompt": "Name two ways French expansion affected Europe.",
+          "answer": [
+            "It reorganised states and spread institutional or political changes.",
+            "It provoked resistance to French domination."
+          ]
+        }
+      ],
+      "source": {
+        "title": "Deutsches Historisches Museum · Revolution to empire",
+        "url": "https://www.dhm.de/en/exhibitions/permanent-exhibition/from-the-french-revolution-to-the-second-german-empire/"
+      }
+    },
+    {
+      "id": "vienna",
+      "title": "Putting Europe back together",
+      "date": "1814–1815",
+      "year": 1815,
+      "region": "Vienna · Central Europe",
+      "places": [
+        "vienna",
+        "paris"
+      ],
+      "prerequisites": [
+        "revolution"
+      ],
+      "question": "What were the victors trying to achieve in 1815?",
+      "before": "Napoleonic expansion had disrupted the European state system.",
+      "after": "A negotiated territorial settlement sought a balance among great powers.",
+      "actors": [
+        "Austria",
+        "Prussia",
+        "Russia",
+        "Britain",
+        "France"
+      ],
+      "ideas": [
+        {
+          "title": "Balance, rather than one winner",
+          "text": "The Congress of Vienna reorganised Europe after Napoleon. Its architects sought a balance of power that would make another continent-dominating empire harder to build."
+        },
+        {
+          "title": "Dynasties return",
+          "text": "Restoring established rulers was central to the settlement. The wishes of national movements were not its organising principle."
+        },
+        {
+          "title": "Germany remains a collection",
+          "text": "The German Confederation linked 39 states, rather than creating one German nation-state. Austria and Prussia remained competing centres of power."
+        }
+      ],
+      "questions": [
+        {
+          "id": "v1",
+          "prompt": "What was the main geopolitical aim of the Vienna settlement?",
+          "answer": [
+            "A balance of power: preventing one state from dominating Europe."
+          ]
+        },
+        {
+          "id": "v2",
+          "prompt": "Did Vienna create a unified Germany? Explain.",
+          "answer": [
+            "No. It created a confederation of 39 states.",
+            "Austria and Prussia remained separate powers."
+          ]
+        }
+      ],
+      "source": {
+        "title": "German History in Documents and Images · Congress of Vienna",
+        "url": "https://germanhistorydocs.org/en/from-vormaerz-to-prussian-dominance-1815-1866/the-congress-of-vienna-under-the-leadership-of-clemens-prince-von-metternich-1814-15"
+      }
+    },
+    {
+      "id": "germany",
+      "title": "Many states become one",
+      "date": "1864–1871",
+      "year": 1871,
+      "region": "German states · Central Europe",
+      "places": [
+        "berlin",
+        "vienna",
+        "paris"
+      ],
+      "prerequisites": [
+        "vienna"
+      ],
+      "question": "How did Prussia change the balance of power?",
+      "before": "German-speaking lands were divided among multiple states.",
+      "after": "A German Empire emerged under Prussian leadership, excluding Austria.",
+      "actors": [
+        "Prussia",
+        "Otto von Bismarck",
+        "Austria",
+        "France"
+      ],
+      "ideas": [
+        {
+          "title": "A question of leadership",
+          "text": "Unification meant deciding which power would lead. Prussia’s rise challenged Austria’s position in German affairs."
+        },
+        {
+          "title": "War changes the options",
+          "text": "Victories against Denmark, Austria and France in 1864, 1866 and 1870–1871 helped Prussia establish its dominance. Unification followed a sequence of conflicts, not a single vote by all German speakers."
+        },
+        {
+          "title": "A new centre of power",
+          "text": "The German Empire was proclaimed in 1871 under Prussian leadership. Austria was outside it, and a powerful new state altered Europe’s diplomatic balance."
+        }
+      ],
+      "questions": [
+        {
+          "id": "g1",
+          "prompt": "Which state led German unification, and which rival was excluded?",
+          "answer": [
+            "Prussia led unification.",
+            "Austria was excluded from the new German Empire."
+          ]
+        },
+        {
+          "id": "g2",
+          "prompt": "Why did German unification matter beyond Germany?",
+          "answer": [
+            "It created a powerful new state in Central Europe.",
+            "That changed the balance of power among European states."
+          ]
+        }
+      ],
+      "source": {
+        "title": "Deutsches Historisches Museum · German unification",
+        "url": "https://www.dhm.de/en/exhibitions/permanent-exhibition/from-the-french-revolution-to-the-second-german-empire/"
+      }
+    },
+    {
+      "id": "empires",
+      "title": "War breaks the imperial order",
+      "date": "1914–1923",
+      "year": 1918,
+      "region": "Central & Eastern Europe",
+      "places": [
+        "sarajevo",
+        "vienna",
+        "moscow"
+      ],
+      "prerequisites": [
+        "germany"
+      ],
+      "question": "Why did the First World War transform the map?",
+      "before": "Large empires ruled much of Central and Eastern Europe.",
+      "after": "Imperial collapse and postwar settlements produced new states and contested borders.",
+      "actors": [
+        "Austria-Hungary",
+        "German Empire",
+        "Russian Empire",
+        "Ottoman Empire",
+        "National movements"
+      ],
+      "ideas": [
+        {
+          "title": "War puts states under strain",
+          "text": "Years of mass warfare weakened armies, economies and political authority. Defeat and revolution helped bring down imperial regimes."
+        },
+        {
+          "title": "Four imperial orders fall",
+          "text": "The Russian, German, Austro-Hungarian and Ottoman imperial orders collapsed during the war and its aftermath. Their timelines and successor arrangements differed."
+        },
+        {
+          "title": "New states, unresolved claims",
+          "text": "Poland re-emerged and Czechoslovakia was created. New boundaries did not neatly separate populations; minorities and competing territorial claims remained."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1",
+          "prompt": "Name the four empires whose imperial orders collapsed around the First World War.",
+          "answer": [
+            "Russian, German, Austro-Hungarian and Ottoman."
+          ]
+        },
+        {
+          "id": "e2",
+          "prompt": "Why didn’t creating new states settle every territorial dispute?",
+          "answer": [
+            "Populations were mixed rather than neatly separated.",
+            "National movements and states had competing territorial claims."
+          ]
+        }
+      ],
+      "source": {
+        "title": "US Holocaust Memorial Museum · World War I and its aftermath",
+        "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-i-and-its-aftermath-key-dates"
+      }
+    },
+    {
+      "id": "cold-war",
+      "title": "A continent divided into blocs",
+      "date": "1945–1955",
+      "year": 1949,
+      "region": "Europe · Atlantic & Soviet spheres",
+      "places": [
+        "berlin",
+        "moscow"
+      ],
+      "prerequisites": [
+        "empires"
+      ],
+      "question": "How did Europe become divided after the Second World War?",
+      "before": "The Allies cooperated to defeat Nazi Germany.",
+      "after": "Rival US-led and Soviet-led blocs divided much of Europe.",
+      "actors": [
+        "United States",
+        "Soviet Union",
+        "Western European states",
+        "Eastern European states"
+      ],
+      "ideas": [
+        {
+          "title": "Allies with different aims",
+          "text": "After the Second World War, the United States and Soviet Union disagreed over Europe’s political future. Security fears and ideological conflict deepened their rivalry."
+        },
+        {
+          "title": "Germany becomes a fault line",
+          "text": "Postwar occupation hardened into division. Two German states formed in 1949; Berlin became a particularly visible focus of the wider confrontation."
+        },
+        {
+          "title": "Alliances give division structure",
+          "text": "NATO was founded in 1949 and the Warsaw Pact in 1955. Blocs shaped security and politics, though not every European country belonged to either alliance."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1",
+          "prompt": "Which two powers led the rival Cold War blocs?",
+          "answer": [
+            "The United States and the Soviet Union."
+          ]
+        },
+        {
+          "id": "c2",
+          "prompt": "Name the rival alliances and one geographical example of Europe’s division.",
+          "answer": [
+            "NATO and the Warsaw Pact.",
+            "Germany’s division into two states, or the division of Berlin."
+          ]
+        }
+      ],
+      "source": {
+        "title": "Smithsonian · Origins of the Cold War",
+        "url": "https://americanhistory.si.edu/subs/history/timeline/origins/index.html"
+      }
+    },
+    {
+      "id": "collapse",
+      "title": "The division comes undone",
+      "date": "1989–1991",
+      "year": 1991,
+      "region": "Eastern Europe · Soviet Union",
+      "places": [
+        "berlin",
+        "moscow"
+      ],
+      "prerequisites": [
+        "cold-war"
+      ],
+      "question": "What is the difference between 1989 and 1991?",
+      "before": "Communist governments and Soviet power sustained the Eastern bloc.",
+      "after": "Eastern bloc regimes fell, Germany reunited and the USSR dissolved.",
+      "actors": [
+        "Protest movements",
+        "Mikhail Gorbachev",
+        "Soviet republics",
+        "East and West Germany"
+      ],
+      "ideas": [
+        {
+          "title": "Pressure for change",
+          "text": "Economic difficulties, political reform and popular mobilisation undermined communist rule. Gorbachev’s reforms loosened controls without resolving the Soviet system’s crises."
+        },
+        {
+          "title": "1989 changes the bloc",
+          "text": "Communist regimes lost power across much of Eastern Europe. The Berlin Wall opened in November 1989; German reunification followed in 1990."
+        },
+        {
+          "title": "1991 changes the state itself",
+          "text": "The Soviet Union dissolved in December 1991 into 15 independent states. The fall of Eastern European regimes and the breakup of the USSR were connected but distinct developments."
+        }
+      ],
+      "questions": [
+        {
+          "id": "s1",
+          "prompt": "Distinguish the events of 1989, 1990 and 1991.",
+          "answer": [
+            "1989: Eastern European communist regimes fell and the Berlin Wall opened.",
+            "1990: Germany reunited.",
+            "1991: the Soviet Union dissolved."
+          ]
+        },
+        {
+          "id": "s2",
+          "prompt": "Was the Eastern bloc identical to the Soviet Union?",
+          "answer": [
+            "No. The bloc included separate states under Soviet influence.",
+            "The Soviet Union itself was a union of republics; its dissolution created 15 independent states."
+          ]
+        }
+      ],
+      "source": {
+        "title": "US Office of the Historian · Collapse of the Soviet Union",
+        "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union"
+      }
+    }
+  ]
+}
