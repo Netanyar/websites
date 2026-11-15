@@ -1,15 +1,13 @@
-# Published websites
+# Websites
 
-A shared home for static websites and reports. Each website lives in its own folder.
+Published at https://netanyar.github.io/websites/
 
-- [Bangkok neighbourhood guide](bangkok/)
+## Projects
 
-## GitHub Pages setup
+- [Where to stay](stays/) — 30 neighbourhood reports across Asia and Europe.
 
-In Settings → Pages, choose **Deploy from a branch**, then **main** and **/ (root)**, and save.
+Each project lives in its own folder with an index.html and its assets. Add each new project to the directory in the root index.html. Keep project links relative so they work on GitHub Pages.
 
-The homepage will be https://netanyar.github.io/websites/ and the Bangkok guide will be https://netanyar.github.io/websites/bangkok/ once Pages is enabled and deployment completes.
+The stay guide lives under stays/; the old city URLs redirect to the corresponding nested reports, preserving query strings and fragments.
 
-## Adding another website
-
-Create a descriptive folder containing index.html and any assets, then add a link to the root index.html. Do not commit credentials or private information: this repository and its published pages are public.
+GitHub Pages deploys main from the repository root. This repository and its published pages are public.
